@@ -1,7 +1,8 @@
-# Tauri + Vanilla
+# Explore Tauri with SQLite
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
+The purpose of this project is exploration of setting up Tauri with SQLite in a bare minimum environment.
 
-## Recommended IDE Setup
+Uses:
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- Rusqlite
+- Diesel for migraitons and connection

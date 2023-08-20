@@ -1,7 +1,6 @@
 use crate::schema::todos::dsl::todos as all_todos;
 use crate::{db::connect_db, schema::todos};
 use diesel::prelude::*;
-use diesel::sqlite::SqliteConnection;
 use serde::{Deserialize, Serialize};
 
 #[derive(Queryable, Selectable, Debug, Serialize)]
